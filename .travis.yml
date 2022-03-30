@@ -39,6 +39,8 @@ jobs:
     - <<: *job
       rvm: 2.7.2
     - <<: *job
+      rvm: 2.7.5
+    - <<: *job
       language: python
       python: 2.7
     - <<: *job
